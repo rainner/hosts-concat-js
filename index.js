@@ -13,20 +13,20 @@ concat.on( "build", function( data, options )
     "# \n" + data;
 });
 
-// handler error
+// error handler
 concat.on( "error", function( error, options )
 {
     console.warn( error );
 });
 
-// handle complete
+// start handler
 concat.on( "start", function( options )
 {
     console.log( "# " );
     console.log( "# Hosts concat running on: "+ options.scanFrom + "/*" );
 });
 
-// handle complete
+// finish handler
 concat.on( "finish", function( options )
 {
     console.log( "# Output file saved to: "+ options.saveTo );
