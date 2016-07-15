@@ -1,0 +1,18 @@
+{
+  "name": "hosts-concat-js",
+  "version": "1.0.0",
+  "description": "Basic script for concatenating hosts files together to be used for ad blocking.",
+  "scripts": {
+    "concat": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainner/hosts-concat-js.git"
+  },
+  "author": "Rainner Lins <rainnerlins@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainner/hosts-concat-js/issues"
+  },
+  "homepage": "https://github.com/rainner/hosts-concat-js#readme"
+}
